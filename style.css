@@ -1,0 +1,522 @@
+
+
+#navigation{
+	width: 100%;
+	max-height: 75px;
+	background-color: white;
+	z-index: 9991;
+
+}
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.nav{
+	cursor: pointer;
+	color: rgb(67,44,131);
+	margin: 29px;
+	margin-left: 1px;
+	font-size: 120%;
+	text-decoration: none !important;
+	transition: transform 1s;
+}
+
+.nav:hover{
+transform: scale(1.2);
+}
+
+
+.logo1{
+	width: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+
+}
+
+.logo{
+	width: 180px;
+	height: 75px
+}
+.nav {
+	color: rgb(67,44,131);
+	border: none;
+	font-size: 120%;
+	cursor: pointer;
+	background-color: white
+
+}
+.closebtn{
+	margin-left: 60%;
+	zoom: 200%;
+
+	}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	opacity: 0.7;
+	background-color: white;
+	color: rgb(67,44,131);
+	
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.bar{
+	width: 25px;
+	height: 4px;
+	background-color: rgb(67,44,131);
+	margin-top: 4px;
+	border-radius: 20%
+
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  background-color: rgb(67,44,131);
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+.burger{
+	position: absolute;
+  	z-index: 9999999;
+  	margin-left: 90%
+}
+
+.burger-mum{
+	height: 75px;
+	display: flex;align-items: center;
+	position: absolute;
+	width: 100%;
+	
+}
+.burger-mum{
+	display: none;
+}
+
+.about-title-mum{
+	font-size: 40px;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(67,44,131);
+	color: white
+}
+
+
+.about-line{
+	width: 2px;
+	height: 70%;
+	background-color: grey;
+}
+.about-div{
+	position: absolute;
+	width: 100%;
+	height: 319px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top:50px;
+}
+.about-1{
+	display: flex;
+	flex-direction: column;
+	height: 70%;
+	justify-content: space-around;
+}
+.about-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 70%;
+}
+
+.about-1-title{
+	font-size: 170%;
+}
+.about-1-p{
+	font-size: 120%
+}
+
+#lub{
+	width: 100%;
+	opacity: 0.3;
+	height: 400px
+}
+.team-teatle{
+	width: 100%;
+	height: 70px;
+	background-color:rgb(67,44,131);
+	color: white;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px 
+}
+.team{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:  space-around;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 1000px;
+
+}
+.lado{
+	display: flex;
+	justify-content: flex-start;
+	height: 300px	
+}
+.tamar-img-div{
+	width: 180px;
+	margin-left: 5%;
+}
+.leo-img-div{
+	width: 180px;
+	margin-left: 5%;
+}
+.lado-img-div{
+	width: 180px;
+	margin-left: 5%;
+}
+
+.member-name{
+	margin-left: 2%;
+	font-size: 110%
+}
+.member-img{
+	margin-left: 5%;
+	width: 180px;
+	height: 180px
+}
+.member-img-1{
+	margin-left: 5%;
+	width: 180px;
+	height: 180px
+}
+.member-img-2{
+	margin-left: 5%;
+	width: 180px;
+	height: 180px
+}
+.member-p{
+	width: 80%;
+	margin-left: 2%
+}
+.tamar{
+	display: flex;
+	justify-content: flex-start;
+	height: 300px
+}
+.leo{
+	display: flex;
+	justify-content: flex-start;
+	height: 300px
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(67,44,131);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.get-in{
+	height: 250px;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white
+}
+.get-adres{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%
+}
+
+.get-phone{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%
+}
+.get-email{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%
+}
+.infor{
+	width: 35%;
+	color: white;
+}
+.infor-lorem{
+	width: 100%;
+	font-size: 14px
+}
+.infor-logo{
+	width: 170px;
+	height: 72px;
+	margin-left: 20%
+}
+
+.media{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 15%;
+	height: 100px;
+	color: white;
+}
+.media-boxes{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.media-box{
+	border-radius: 20%;
+	transition: transform 0.5s
+}
+.media-box:hover{
+	transform:scale(1.4);
+}
+.phones{
+	margin-right: 16%
+}
+.email{
+	margin-right: 23%
+}
+
+@media screen and (max-width: 1180px){
+.nav{
+	display: none;
+}
+.burger-mum{
+	height: 55px;
+	display: flex;
+	align-items:center;
+}
+.logo1{
+	margin-right: 65%
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	opacity: 1;
+	background-color: black;
+}
+.member-p{
+	width: 98%
+}
+
+}
+@media screen and (max-width: 1065px){
+	.member-img{
+		margin-top: 40px
+	}
+}
+@media screen and (max-width: 900px){
+	.infor{
+		display: none;
+	}
+	.get-in{
+		width: 50%
+	}
+	.media{
+		width: 25%
+	}
+	.about-div{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		width: 90%;
+		margin-left: 10%
+	}
+	#lub{
+		height: 500px
+	}
+	.about-1{
+		margin-top: 20px
+	}
+	.about-2{
+		margin-top: 20px
+	}
+	.lado{
+		flex-direction: column;
+	}
+	.tamar{
+		flex-direction: column;
+	}
+	.leo{
+		flex-direction: column;
+	}
+	.member-img{
+		margin-left: 2%
+		
+	}
+	.member-img-1{
+		margin-top: 200px;
+		margin-left: 2%
+
+	}
+	.member-img-2{
+		margin-top: 350px;
+		margin-left: 0%
+	}
+	.leo-img-div{
+		margin-left: 2%
+	}
+	.tamar-img-div{
+		margin-left: 2%
+	}
+	.lado-img-div{
+		margin-left:2%;
+	}
+	footer{
+		margin-top: 700px
+	}
+	
+}
+@media screen and (max-width: 575px){
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+	.get-in{
+		width: 75%;
+		height: 60%
+	}
+	.media{
+		width: 75%
+	}
+	.media-boxes{
+		width: 30%
+	}
+	.leo-img-div{
+		display: flex;
+		justify-content: center;
+		width: 100%
+	}
+	.tamar-img-div{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	.lado-img-div{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-left: 0;
+	}
+	.member-name{
+		margin-left: 38%
+	}
+	.member-p{
+		width: 80%;
+		text-align: justify;
+		margin-left: 10%
+	}
+	.member-img-1{
+		margin-top: 300px;
+
+	}
+	.member-img-2{
+		margin-top: 550px;
+	}
+	footer{
+		margin-top: 900px
+	}
+}
+@media screen and (max-width: 450px){
+
+	.about-div{
+		width: 100%;
+		margin-left: 0
+	}
+	.member-img-1{
+		margin-top: 400px;
+
+	}
+	.member-img-2{
+		margin-top: 750px;
+	}
+	footer{
+		margin-top: 1200px
+	}
+	.member-p{
+		width: 100%;
+		margin-left: 0
+	}
+
+}
+@media screen and ( max-width: 390px){
+	.about-div{
+		font-size: 80%
+	}
+	#lub{
+		height: 400px
+	}
+	.about-1{
+		margin-top: 0
+	}
+	.meber-img-1{
+		margin-top: 500px;
+
+	}
+	.meber-img-2{
+		margin-top: 950px;
+	}
+	.get-in{
+		width: 95%
+	}
+}
